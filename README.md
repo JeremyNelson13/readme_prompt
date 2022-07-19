@@ -33,3 +33,10 @@ Recent Blog Carousel
 Private/Public toggle on blogposts
 Image/Sound/Video posts in addition to text posts
 Tag system improvement
+
+## API ENDPOINTS
+GET api/posts Get all Blogposts 
+GET ''/posts/:id Get single post by id
+POST ''/posts Create new post
+PUT ''/posts/:id Update post
+DELETE ''/posts/:id Delete post by id
